@@ -17,7 +17,7 @@ The original idea was to build a tiny autonomous spider-style drone that could h
 - Bought replacement **brushed motors** to keep cost low and soldered it into the original frame
 - Verified that the drone could fly correctly again before coding
   
-<img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/3f3961ab-aa3e-4633-ac72-81539df69158" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/3f3961ab-aa3e-4633-ac72-81539df69158" />
 
 
 
