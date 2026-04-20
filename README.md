@@ -4,6 +4,7 @@
 **2026 CODE Club Engineering Challenge @pgcc**
 
 AeroVision restores and reprograms a broken Ryze Tello Drone by DJI into a Python-controlled aerial imaging drone with live camera view, keyboard flight control, photo capture, and video recording. The final target is a gesture-controlled interface using computer vision from a connected camera, plus a lighter custom 3D-printed frame to reduce heat and improve portability.
+<img width="236" height="346" alt="image" src="https://github.com/user-attachments/assets/b552135b-2b43-4b8a-bf5c-e9cd99e5f2d9" />
 
 The original idea was to build a tiny autonomous spider-style drone that could hover, take pictures, record video, and respond to hand gestures. Because the timeline was only three weeks, I pivoted to repairing an old drone first and turning it into a programmable prototype that could realistically be finished on time.
 
