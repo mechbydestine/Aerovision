@@ -8,6 +8,7 @@ AeroVision restores and reprograms a broken Ryze Tello Drone by DJI into a Pytho
 The original idea was to build a tiny autonomous spider-style drone that could hover, take pictures, record video, and respond to hand gestures. Because the timeline was only three weeks, I pivoted to repairing an old drone first and turning it into a programmable prototype that could realistically be finished on time.
 
 ## Project Thumbnail
+<img width="351" height="377" alt="image" src="https://github.com/user-attachments/assets/c6170bb7-5f5f-4e4e-ae5c-30a265092fcb" />
 
 ## What I repaired
 - Replaced battery setup with new **1100mAh 3.8V** batteries
@@ -15,7 +16,9 @@ The original idea was to build a tiny autonomous spider-style drone that could h
 - Bought replacement **brushed motors** to keep cost low and soldered it into the original frame
 - Verified that the drone could fly correctly again before coding
   
-Pic
+<img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/3f3961ab-aa3e-4633-ac72-81539df69158" />
+
+
 
 What works now
 - Python connection to the Tello over Wi-Fi
