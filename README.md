@@ -1,27 +1,23 @@
 # AeroVision
 
-## Team Name
-AeroVision
+##  Repairing and Reprogramming a Gesture-Controlled Imaging Drone
+**2026 CODE Club Engineering Challenge @pgcc**
 
-## Project Title
-**AeroVision: Repairing and Reprogramming a Gesture-Controlled Imaging Drone**
-
-## Project Thumbnail
-
-
-## Project Description
 AeroVision restores and reprograms a broken Ryze Tello Drone by DJI into a Python-controlled aerial imaging drone with live camera view, keyboard flight control, photo capture, and video recording. The final target is a gesture-controlled interface using computer vision from a connected camera, plus a lighter custom 3D-printed frame to reduce heat and improve portability.
 
-## Why this project?
 The original idea was to build a tiny autonomous spider-style drone that could hover, take pictures, record video, and respond to hand gestures. Because the timeline was only three weeks, I pivoted to repairing an old drone first and turning it into a programmable prototype that could realistically be finished on time.
+
+## Project Thumbnail
 
 ## What I repaired
 - Replaced battery setup with new **1100mAh 3.8V** batteries
 - Added a **USB-C charging dock**
 - Bought replacement **brushed motors** to keep cost low and soldered it into the original frame
 - Verified that the drone could fly correctly again before coding
+  
+Pic
 
-## What works now
+What works now
 - Python connection to the Tello over Wi-Fi
 - Live camera window in OpenCV
 - Keyboard flight control
@@ -29,8 +25,7 @@ The original idea was to build a tiny autonomous spider-style drone that could h
 - Video recording from the live feed
 - Gesture recognition through computer vision
 - Hand gesture mapping to flight commands
-
-## Current work in progress
+Currently work in progress
 - Lightweight custom frame redesign in Fusion 360
 - Better airflow and weight reduction to address overheating
 
@@ -43,7 +38,7 @@ I modeled the drone in Fusion 360 using real measurements from the drone and com
 3. **3D printing fit issues** because the second frame was accidentally scaled too large before printing, which made the propeller arms too long to swap in safely.
 4. **Software debugging** while moving from basic control scripts to gesture recognition.
 
-## What I learned
+## I learned that...
 - It is better to get a working prototype first, then expand features.
 - Mechanical design decisions directly affect flight performance and heat.
 - Small scaling mistakes in CAD can completely change motor and propeller geometry.
@@ -55,4 +50,4 @@ I modeled the drone in Fusion 360 using real measurements from the drone and com
 - Tune the thermal design and test airflow changes
 - Add a final lightweight shell inspired by the spider-drone concept art
 
-## Final Presentation
+## Demo Video and Presentation!
