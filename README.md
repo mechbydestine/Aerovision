@@ -54,3 +54,5 @@ I modeled the drone in Fusion 360 using real measurements from the drone and com
 - Add a final lightweight shell inspired by the spider-drone concept art
 
 ## Demo Video and Presentation!
+https://drive.google.com/file/d/1S9KgXW-gF6EoA1r2D0iLO95KVfs6CO_E/view?usp=sharing
+[AeroVisionProject.pptx](https://github.com/user-attachments/files/26882107/AeroVisionProject.pptx)
