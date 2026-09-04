@@ -1,7 +1,5 @@
 <img alt="AeroVision" src="docs/media/banner.svg" width="100%" />
 
-# AeroVision
-
 ## Repairing and Reprogramming a Gesture-Controlled Imaging Drone
 **2026 CODE Club Engineering Challenge @pgcc**
 
@@ -19,8 +17,6 @@ The original idea was to build a tiny autonomous spider-style drone that could h
 - Added a **USB-C charging dock**
 - Bought replacement **brushed motors** to keep cost low and soldered it into the original frame
 - Verified that the drone could fly correctly again before coding
-
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/3f3961ab-aa3e-4633-ac72-81539df69158" />
 
 ## What works now
 - Python connection to the Tello over Wi-Fi
@@ -100,4 +96,4 @@ https://drive.google.com/file/d/1S9KgXW-gF6EoA1r2D0iLO95KVfs6CO_E/view?usp=shari
 [AeroVisionProject.pptx](https://github.com/user-attachments/files/26882107/AeroVisionProject.pptx)
 
 ## Credits
-Built by D.A. Hand tracking is Google MediaPipe, drone control is djitellopy. The spider idea came from Spider-Man: Far From Home.
+Built by D.A. Hand tracking is Google MediaPipe, drone control is djitellopy. The spider idea came from Spider-Man: Far From Home. Minimal use of AI
