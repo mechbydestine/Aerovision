@@ -1,3 +1,5 @@
+<img alt="AeroVision" src="docs/media/banner.svg" width="100%" />
+
 # AeroVision
 
 ## Repairing and Reprogramming a Gesture-Controlled Imaging Drone
@@ -37,24 +39,7 @@ The original idea was to build a tiny autonomous spider-style drone that could h
 
 <img alt="the gestures" src="docs/media/gesture-chart.svg" width="100%" />
 
-| Hand shape | Command | What the drone does |
-| --- | --- | --- |
-| Open palm | `takeoff` | Take off, then hover |
-| Fist | `land` | Land |
-| Index finger | `forward` | Nudge forward |
-| Index + pinky | `backward` | Nudge backward |
-| Thumb up | `up` | Climb |
-| Thumb down | `down` | Descend |
-| Pinky | `rotate_left` | Yaw left |
-| Thumb + pinky | `rotate_right` | Yaw right |
-| Peace sign | `photo` | Save a photo |
-| Three fingers | `record` | Start / stop recording |
-
-My webcam looks at my hand and MediaPipe gives back 21 points for it. To tell if a finger is up I measure the fingertip and the middle knuckle from the wrist, since a curled finger folds back toward the palm. I tried just comparing them up and down first but that only works if my hand is perfectly straight up, and it made a thumbs down impossible to read.
-
-The 5 up/down flags then get looked up in a table to get the command. It also waits until the same gesture shows up in most of the last 0.7 seconds before it actually does anything, because my hand goes through a fist on the way to an open palm and I didn't want it landing on me.
-
-My notes on the rest of it are in [docs/GESTURES.md](docs/GESTURES.md).
+My webcam looks at my hand, MediaPipe gives back 21 points, and I check if a finger is up by measuring the fingertip and the middle knuckle from the wrist. Those 5 flags get looked up in a table to get the command. It waits until the same gesture wins most of the last 0.7 seconds before doing anything, because my hand goes through a fist on the way to an open palm and I didn't want it landing on me. More on it in [docs/GESTURES.md](docs/GESTURES.md).
 
 ## How to run it
 Connect to the drone's `TELLO-XXXXXX` wifi network first.
@@ -70,9 +55,7 @@ python -m aerovision keyboard       # wasd control
 python -m aerovision preflight      # battery and wifi check
 ```
 
-The MediaPipe hand model is 7.8MB so I didn't put it in the repo, it downloads itself the first time you run something that needs it.
-
-Fly indoors somewhere open and use `--dry-run` until the gestures feel right. It won't take off under 15% battery, because a Tello that dies mid command drops instead of landing.
+The hand model downloads itself the first time you need it. Use `--dry-run` until the gestures feel right, and it won't take off under 15% battery since a Tello that dies mid command drops instead of landing.
 
 ## Design process
 I modeled the drone in Fusion 360 using real measurements from the drone and compared them against the published dimensions to keep the frame accurate. I created two versions: the first included raised leg features but added too much weight and was scrapped, while the second version focused on a smaller, lighter body with more open areas for airflow.
@@ -92,12 +75,12 @@ The STL files and the rest of my build notes are in [docs/HARDWARE.md](docs/HARD
 ```
 src/aerovision/   gestures, hand tracking, drone control, the cli
 tests/            tests for the gesture logic, no drone or camera needed
-tools/            the script that draws the gesture chart
+tools/            the scripts that draw the banner and the gesture chart
 hardware/         STL files and Fusion 360 renders
 docs/             gesture and hardware notes
 ```
 
-I had a separate script for every feature and they kept drifting apart from each other, so I put them all into one package. Doing that is how I found out two of my gestures could never run, since photo and rotate right had the same conditions as backward and rotate left in my if chain. It's a lookup table now and there's a test that fails if two gestures ever claim the same hand shape.
+I had a separate script for every feature and they kept drifting apart from each other, so I put them all into one package. That's how I found out two of my gestures could never run, since photo and rotate right had the same conditions as backward and rotate left in my if chain.
 
 ## I learned that...
 - It is better to get a working prototype first, then expand features.
@@ -117,6 +100,4 @@ https://drive.google.com/file/d/1S9KgXW-gF6EoA1r2D0iLO95KVfs6CO_E/view?usp=shari
 [AeroVisionProject.pptx](https://github.com/user-attachments/files/26882107/AeroVisionProject.pptx)
 
 ## Credits
-Built by D.A.
-
-Hand tracking is Google MediaPipe, drone control is djitellopy. The spider idea came from the drone in Spider-Man: Far From Home.
+Built by D.A. Hand tracking is Google MediaPipe, drone control is djitellopy. The spider idea came from Spider-Man: Far From Home.

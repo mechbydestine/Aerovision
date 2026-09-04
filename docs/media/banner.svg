@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="AeroVision: a repaired Tello drone that flies on hand gestures">
+<defs><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.45"/></pattern><linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0d1117" stop-opacity="1"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="340" rx="16" fill="#0d1117"/>
+<rect width="1200" height="340" rx="16" fill="url(#grid)"/>
+<rect width="744" height="340" rx="16" fill="url(#fade)"/>
+<text x="58" y="96" fill="#58a6ff" font-size="13" font-weight="600" letter-spacing="2.4" font-family="Segoe UI,Helvetica,Arial,sans-serif">PGCC CODE CLUB  ·  2026 ENGINEERING CHALLENGE</text>
+<text x="56" y="168" fill="#e6edf3" font-size="62" font-weight="700" letter-spacing="-1" font-family="Segoe UI,Helvetica,Arial,sans-serif">AeroVision</text>
+<text x="58" y="206" fill="#8b949e" font-size="19" font-family="Segoe UI,Helvetica,Arial,sans-serif">A repaired Tello drone that flies on hand gestures</text>
+<rect x="58" y="236" width="106" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+<text x="111" y="255" fill="#8b949e" font-size="12.5" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif">Python 3.10+</text>
+<rect x="172" y="236" width="61" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+<text x="202" y="255" fill="#8b949e" font-size="12.5" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif">OpenCV</text>
+<rect x="241" y="236" width="83" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+<text x="282" y="255" fill="#8b949e" font-size="12.5" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif">MediaPipe</text>
+<rect x="332" y="236" width="83" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+<text x="374" y="255" fill="#8b949e" font-size="12.5" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif">Tello SDK</text>
+<rect x="424" y="236" width="91" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+<text x="469" y="255" fill="#8b949e" font-size="12.5" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif">Fusion 360</text>
+<path d="M855 150 A 20 20 0 0 1 855 190" fill="none" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" opacity="0.75"/>
+<path d="M881 144 A 26 26 0 0 1 881 196" fill="none" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" opacity="0.55"/>
+<path d="M907 138 A 32 32 0 0 1 907 202" fill="none" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" opacity="0.35"/>
+<path d="M772.1 242.8 L740.6 221.8" fill="none" stroke="#3fb950" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M740.6 221.8 L716.9 213.2 L696.3 209.5 L678.4 208.9" fill="none" stroke="#3fb950" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M744.8 179.8 L742.6 148.4 L743.4 126.3 L745.9 108.7" fill="none" stroke="#3fb950" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M769.0 173.5 L772.0 139.0 L776.6 115.3 L782.1 97.2" fill="none" stroke="#3fb950" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M792.1 177.7 L800.2 147.3 L808.1 126.7 L816.2 110.8" fill="none" stroke="#3fb950" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M812.0 188.2 L823.1 165.5 L832.5 150.4 L841.6 138.8" fill="none" stroke="#3fb950" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M772.1 242.8 L744.8 179.8" fill="none" stroke="#3fb950" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M772.1 242.8 L812.0 188.2" fill="none" stroke="#3fb950" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M744.8 179.8 L769.0 173.5 L792.1 177.7 L812.0 188.2" fill="none" stroke="#3fb950" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="772.1" cy="242.8" r="3.4" fill="#39d0d8"/>
+<circle cx="740.6" cy="221.8" r="3.4" fill="#39d0d8"/>
+<circle cx="740.6" cy="221.8" r="3.4" fill="#39d0d8"/>
+<circle cx="716.9" cy="213.2" r="3.4" fill="#39d0d8"/>
+<circle cx="696.3" cy="209.5" r="3.4" fill="#39d0d8"/>
+<circle cx="678.4" cy="208.9" r="3.4" fill="#39d0d8"/>
+<circle cx="744.8" cy="179.8" r="3.4" fill="#39d0d8"/>
+<circle cx="742.6" cy="148.4" r="3.4" fill="#39d0d8"/>
+<circle cx="743.4" cy="126.3" r="3.4" fill="#39d0d8"/>
+<circle cx="745.9" cy="108.7" r="3.4" fill="#39d0d8"/>
+<circle cx="769.0" cy="173.5" r="3.4" fill="#39d0d8"/>
+<circle cx="772.0" cy="139.0" r="3.4" fill="#39d0d8"/>
+<circle cx="776.6" cy="115.3" r="3.4" fill="#39d0d8"/>
+<circle cx="782.1" cy="97.2" r="3.4" fill="#39d0d8"/>
+<circle cx="792.1" cy="177.7" r="3.4" fill="#39d0d8"/>
+<circle cx="800.2" cy="147.3" r="3.4" fill="#39d0d8"/>
+<circle cx="808.1" cy="126.7" r="3.4" fill="#39d0d8"/>
+<circle cx="816.2" cy="110.8" r="3.4" fill="#39d0d8"/>
+<circle cx="812.0" cy="188.2" r="3.4" fill="#39d0d8"/>
+<circle cx="823.1" cy="165.5" r="3.4" fill="#39d0d8"/>
+<circle cx="832.5" cy="150.4" r="3.4" fill="#39d0d8"/>
+<circle cx="841.6" cy="138.8" r="3.4" fill="#39d0d8"/>
+<circle cx="772.1" cy="242.8" r="3.4" fill="#39d0d8"/>
+<circle cx="744.8" cy="179.8" r="3.4" fill="#39d0d8"/>
+<circle cx="772.1" cy="242.8" r="3.4" fill="#39d0d8"/>
+<circle cx="812.0" cy="188.2" r="3.4" fill="#39d0d8"/>
+<circle cx="744.8" cy="179.8" r="3.4" fill="#39d0d8"/>
+<circle cx="769.0" cy="173.5" r="3.4" fill="#39d0d8"/>
+<circle cx="792.1" cy="177.7" r="3.4" fill="#39d0d8"/>
+<circle cx="812.0" cy="188.2" r="3.4" fill="#39d0d8"/>
+<line x1="1024" y1="156" x2="974" y2="124" stroke="#e6edf3" stroke-width="4" stroke-linecap="round"/>
+<line x1="1056" y1="156" x2="1106" y2="124" stroke="#e6edf3" stroke-width="4" stroke-linecap="round"/>
+<line x1="1024" y1="180" x2="974" y2="212" stroke="#e6edf3" stroke-width="4" stroke-linecap="round"/>
+<line x1="1056" y1="180" x2="1106" y2="212" stroke="#e6edf3" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="974" cy="116" rx="30.0" ry="4.5" fill="#58a6ff" opacity="0.35"/>
+<ellipse cx="1106" cy="116" rx="30.0" ry="4.5" fill="#58a6ff" opacity="0.35"/>
+<ellipse cx="974" cy="204" rx="30.0" ry="4.5" fill="#58a6ff" opacity="0.35"/>
+<ellipse cx="1106" cy="204" rx="30.0" ry="4.5" fill="#58a6ff" opacity="0.35"/>
+<circle cx="974" cy="124" r="7.0" fill="#161b22" stroke="#e6edf3" stroke-width="3"/>
+<circle cx="1106" cy="124" r="7.0" fill="#161b22" stroke="#e6edf3" stroke-width="3"/>
+<circle cx="974" cy="212" r="7.0" fill="#161b22" stroke="#e6edf3" stroke-width="3"/>
+<circle cx="1106" cy="212" r="7.0" fill="#161b22" stroke="#e6edf3" stroke-width="3"/>
+<rect x="1010" y="147" width="60" height="42" rx="14" fill="#161b22" stroke="#e6edf3" stroke-width="4"/>
+<circle cx="1054" cy="168" r="7" fill="#39d0d8"/>
+</svg>
