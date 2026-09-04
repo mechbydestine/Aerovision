@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aerovision"
+version = "1.0.0"
+description = "Gesture and keyboard control for a repaired Ryze Tello drone, built on MediaPipe hand tracking."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "D.A" }]
+keywords = ["drone", "tello", "computer-vision", "mediapipe", "opencv", "robotics"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+    "Intended Audience :: Education",
+]
+dependencies = [
+    "djitellopy>=2.5",
+    "mediapipe>=0.10.9",
+    "numpy>=1.24",
+    "opencv-python>=4.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.5"]
+
+[project.urls]
+Homepage = "https://github.com/mechbydestine/Aerovision"
+Issues = "https://github.com/mechbydestine/Aerovision/issues"
+
+[project.scripts]
+aerovision = "aerovision.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]

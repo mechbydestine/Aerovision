@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.idea/
+
+# Downloaded on first run (7.8 MB, see aerovision/hands.py)
+models/*.task
+*.part
+
+# Flight output
+captures/
+*.avi
+*.jpg
+*.jpeg
+*.mp4
+!docs/media/*.jpg
+
+# OS
+Thumbs.db
+.DS_Store

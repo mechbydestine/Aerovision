@@ -1,3 +1,5 @@
-djitellopy
-opencv-python
-mediapipe
+# Runtime dependencies. Development extras live in pyproject.toml ([dev]).
+djitellopy>=2.5
+mediapipe>=0.10.9
+numpy>=1.24
+opencv-python>=4.8
